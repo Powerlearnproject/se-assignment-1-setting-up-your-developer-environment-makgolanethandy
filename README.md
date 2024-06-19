@@ -15,46 +15,46 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 2. Install a Text Editor or Integrated Development Environment (IDE):
    Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download.
-   -Open web browser and navigate to https://code.visualstudio.com/
--On the homepage, click the download option on the right corner
--Chose option for Windows 10, 11 on the page
--Once the download is done, run the installer and follow the on-screen instruction to complete the installation.
--Launch Visual code.
+-Open web browser and navigate to https://code.visualstudio.com/.
+On the homepage, click the download option on the right corner.
+Chose option for Windows 10, 11 on the pag.e
+Once the download is done, run the installer and follow the on-screen instruction to complete the installation.
+Launch Visual code.
 
 3. Set Up Version Control System:
 Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
 
--Download latest Git version for windows on https://www.git-scm.com/downloads
-Once its done downloading, run the the installer (.exe file)
--Follow the prompts to complete the installation
--To confirm installation, open command prompt (Run as administrator) and write “git --version” and press Enter to confirm installation and version of Git installed. 
+-Download latest Git version for windows on https://www.git-scm.com/downloads.
+Once its done downloading, run the the installer (.exe file).
+Follow the prompts to complete the installation.
+To confirm installation, open command prompt (Run as administrator) and write “git --version” and press Enter to confirm installation and version of Git installed. 
  
- To configure on local machine (add your name and email address)
--Open command prompt (press start button, search command prompt and run as administrator)
-- Write the below commands to set your name and email address
-git config --global user.name "Name"  (Replace “Name” with you name)
-git config --global user.email "Email address" (Replace “Email” with your email address)
--Once completed, check your configuration setting using the command
-Git config --list
+ To configure on local machine (add your name and email address):
+Open command prompt (press start button, search command prompt and run as administrator).
+Write the below commands to set your name and email address:
+1-git config --global user.name "Name"  (Replace “Name” with you name).
+2-git config --global user.email "Email address" (Replace “Email” with your email address)
+Once completed, check your configuration setting using the command
+1-Git config --list
 
-4.  Install Necessary Programming Languages and Runtimes:
+4.Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
 
--Go to webpage and search https://www.python.org/
--Click on downloads and choose your operating system 
--Select the latest python and download
--Once download is done, double click on it and install
--Customize the installation by checking the box on Add Python 3.8 to PATH 
--Follow the prompts until installation is done.
--To confirm installation, Open command prompt and write the command below
+Go to webpage and search https://www.python.org/.
+Click on downloads and choose your operating system. 
+Select the latest python and download.
+Once download is done, double click on it and install.
+Customize the installation by checking the box on Add Python 3.8 to PATH. 
+Follow the prompts until installation is done.
+To confirm installation, Open command prompt and write the command below:
 python --version
 
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
--Install virtual environment
--Open Git bash
--Write the command to create virtual environment: python -m pip install virtualenv
-- To activate virtual environment, write command: source myenv/Scripts/activate
+Install virtual environment:
+Open Git bash.
+Write the command to create virtual environment: python -m pip install virtualenv.
+To activate virtual environment, write command: source myenv/Scripts/activate.
 
 6. Configure a Database (MySQL):
    -Download and install MySQL database on https://dev.mysql.com/downloads/windows/installer/5.7.html
@@ -62,21 +62,20 @@ python --version
 
 7.Set Up Development Environments and Virtualization (Optional):
    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
-For DART installation
--Open your web browser and search https://dart.dev/get-dart/archive
-- Under Stable channel click on the below version and download the file
-version 3.3.1, OS=Windows, Architecture=IA32
--Once Zip file is downloaded (in download file), copy it and paste it in your local drive/Windows drive
--Extract the compressed file to the drive
--On the extracted file, open bin file and copy the directory path at the top of the folder (C:\dart-sdk\bin)
+For DART installation:
+Open your web browser and search https://dart.dev/get-dart/archive.
+Under Stable channel click on the below version and download the file:
+version 3.3.1, OS=Windows, Architecture=IA32.
+Once Zip file is downloaded (in download file), copy it and paste it in your local drive/Windows drive.
+Extract the compressed file to the drive.
+On the extracted file, open bin file and copy the directory path at the top of the folder (C:\dart-sdk\bin).
 
-To set up the path in environment variables
--Go to start and search Edit system Environment Variables and select it
--Click on Environment variables
--Under User variables, double click on Path to add new variable
--Click on New
--Paste the directory path copied for Dart, click
--Click OK
+To set up the path in environment variables:
+Go to start and search Edit system Environment Variables and select it.
+Click on Environment variables.
+Under User variables, double click on Path to add new variable.
+Click on New.
+Paste the directory path copied for Dart, click OK
 
 8. Explore Extensions and Plugins:
    Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
