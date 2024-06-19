@@ -81,14 +81,11 @@ Paste the directory path copied for Dart, click OK
    Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
 
 The following Extensions were added to VS code:
--Code Runner 
-Dart
-mplsstyle(Matplotlin)
-Prettier
-Pylance
+*Flutter-https://dartcode.org/
+*mplsstyle(Matplotlin)-
+*Prettier-https://prettier.io/ 
 
-
-# Document Your Setup:
+9. Document Your Setup:
     Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
 
 #Deliverables:
